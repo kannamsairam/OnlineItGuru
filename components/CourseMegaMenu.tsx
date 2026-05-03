@@ -13,6 +13,7 @@ import { useHomeStore } from '@/store/homeStore';
 import { Button } from "@/components/ui/button";
 
 // ─── FA icon class → Lucide icon map ─────────────────────────────────────────
+
 const iconMap: Record<string, React.ElementType> = {
     'fa fa-soundcloud': Cloud,
     'fa fa-pie-chart': PieChart,
